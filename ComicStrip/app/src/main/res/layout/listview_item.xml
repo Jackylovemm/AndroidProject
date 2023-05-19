@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:orientation="horizontal" >
+        <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+            android:layout_gravity="center"
+        android:scaleType="centerCrop"
+            android:src="@drawable/bookmark"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical" >   <!-- 影片名及演员介绍-->
+
+            <TextView
+                android:id="@+id/bookMarkId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="书签id:"
+                android:textSize="20sp" />
+
+         <TextView
+            android:id="@+id/bookMarkName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:textColor="#FF5722"
+            android:text="书签名:"
+            android:textSize="18sp" />
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="2"-->
+<!--            android:orientation="horizontal">-->
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="删除书签"-->
+<!--                android:id="@+id/delMark">-->
+<!--            </Button>-->
+<!--            <Button-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="查看详情"-->
+<!--                android:id="@+id/viewMark">-->
+<!--            </Button>-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+
+</LinearLayout>
+

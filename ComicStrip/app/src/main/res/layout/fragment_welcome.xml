@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.WelcomeFragment"
+    android:background="@drawable/background">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="serif"-->
+<!--        android:textSize="50sp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:text="《重走长征路》"-->
+<!--        android:textColor="#EC0E0E"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_author"-->
+<!--        android:layout_above="@id/tv_title2"-->
+<!--        android:layout_below="@id/tv_title"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="serif"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:text="19201124-颜\u3000杰\n18201124-李仁杰\n19112220-姜清华\n19201133-邹林杰"-->
+<!--        android:textColor="@color/purple_500"-->
+<!--        android:textStyle="bold"/>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_title2"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="serif"-->
+<!--        android:textSize="20sp"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:text="红军不怕远征难，万水千山只等闲。\n五岭逶迤腾细浪，乌蒙磅礴走泥丸。\n-->
+<!--金沙水拍云崖暖，大渡桥横铁索寒。\n更喜岷山千里雪，三军过后尽开颜。"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:textColor="#EC0E0E"-->
+<!--        android:textStyle="bold"/>-->
+
+
+
+
+
+</RelativeLayout>

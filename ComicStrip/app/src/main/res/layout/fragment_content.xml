@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ContentFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_0"/>
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:fontFamily="serif"
+            android:text="踏上征途 一九三四年秋，乌云翻滚，天空阴霾，由于王明机会主义路线的错误领导，使红军在国民党反动派的第五次反革命“围剿”中遭到了失败，红军被迫开始了战略性大转移。十月十八日，这是中国革命史上一个令人难忘的日子，就在这一天，伟大领袖和导师毛主席率领红军，离开了无数先烈用鲜血换来的红色根据地——江西于都，踏上了长征的第一步。"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/ib_collect"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:background="#00FFFFFF"
+            android:scaleType="fitCenter"
+            android:src="@drawable/uncollect" />
+
+        <ImageView
+            android:id="@+id/iv_ismark"
+            android:layout_marginLeft="50dp"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:background="#00FFFFFF"
+            android:scaleType="fitXY"
+            />
+
+        <ImageButton
+            android:id="@+id/ib_addmark"
+            android:layout_marginLeft="350dp"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:background="#00FFFFFF"
+            android:scaleType="fitXY"
+            android:src="@drawable/addmark" />
+    </RelativeLayout>
+
+</ScrollView>

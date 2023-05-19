@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".UpdateMark">
+    <ImageView
+        android:id="@+id/img_movie"
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:src="@drawable/bookmark"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/BookmarkName_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:lines="1"
+            android:text="书签名: "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edit_BookMarkName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/BookmarkName_textview"
+            android:background="@android:color/transparent"
+            android:inputType="text"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/PageId_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:lines="1"
+            android:text="绑定页面id: "
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edit_PageId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/PageId_textview"
+            android:background="@android:color/transparent"
+            android:inputType="textMultiLine"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/confirm_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:text="更新"
+            />
+        <Button
+            android:id="@+id/confirm_viewDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:text="查看详情"
+            />
+        <Button
+            android:id="@+id/confirm_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="myClick"
+            android:text="删除书签"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
